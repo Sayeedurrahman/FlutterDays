@@ -1,14 +1,5 @@
 class CatalogModel{
-  static final items = [
-    Item(
-          id: 1,
-          name: "Red Fish",
-          desc: "A vibrant red fish that stands out in any aquarium.",
-          price: 19.99,
-          color: "#FF5733",
-          image: "https://cdn.pixabay.com/photo/2017/08/31/14/40/fish-2700930_960_720.png"
-    )
-  ];
+  static List<Item> items=[];
 }
 
 class Item{
@@ -20,5 +11,25 @@ class Item{
   final String image;
 
   Item({required this.id, required this.name, required this.desc, required this.price, required this.color, required this.image});
+
+  factory Item.fromMap(Map<String, dynamic>map){
+    return Item(
+        id: map['id'],
+        name: map['name'],
+        desc: map['desc'],
+        price: map['price'],
+        color: map['color'],
+        image: map['image'],
+    );
+  }
+
+  toMap() => {
+    "id": id,
+    "name": name,
+    "desc": desc,
+    "price": price,
+    "color": color,
+    "image": image,
+  };
 }
 
