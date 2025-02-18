@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "desc": "Noise-canceling over-ear headphones with Bluetooth connectivity.",
+      "price": 99.99,
+      "color": "Black",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "desc": "Latest 5G smartphone with OLED display and triple-camera setup.",
+      "price": 799.99,
+      "color": "Blue",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Mouse",
+      "desc": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "price": 49.99,
+      "color": "Red",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 4,
+      "name": "Mechanical Keyboard",
+      "desc": "RGB backlit mechanical keyboard with customizable keys.",
+      "price": 129.99,
+      "color": "White",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "desc": "Water-resistant smartwatch with heart rate and fitness tracking.",
+      "price": 199.99,
+      "color": "Silver",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 6,
+      "name": "Laptop",
+      "desc": "Powerful laptop with Intel i7 processor and 16GB RAM.",
+      "price": 1099.99,
+      "color": "Gray",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 7,
+      "name": "Wireless Earbuds",
+      "desc": "True wireless earbuds with noise cancellation and long battery life.",
+      "price": 149.99,
+      "color": "Black",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 8,
+      "name": "4K Monitor",
+      "desc": "Ultra HD 4K monitor with high refresh rate and IPS panel.",
+      "price": 499.99,
+      "color": "Black",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 9,
+      "name": "Portable Speaker",
+      "desc": "Bluetooth speaker with deep bass and waterproof design.",
+      "price": 89.99,
+      "color": "Blue",
+      "image": "https://picsum.photos/800"
+    },
+    {
+      "id": 10,
+      "name": "External SSD",
+      "desc": "1TB external SSD with high-speed USB-C connectivity.",
+      "price": 179.99,
+      "color": "Gray",
+      "image": "https://picsum.photos/800"
+    }
+  ]
+}
